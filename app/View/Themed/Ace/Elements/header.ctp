@@ -21,10 +21,11 @@
             <a href="#" class="navbar-brand">
                 <small>
                     <i class="fa fa-leaf"></i>
-                    Ace Admin
+                    MyApp.local
                 </small>
             </a>
         </div>
+
         <div class="navbar-buttons navbar-header pull-right" role="navigation">
             <ul class="nav ace-nav">
                 <li class="grey">
@@ -180,8 +181,7 @@
                             <ul class="dropdown-menu dropdown-navbar">
                                 <li>
                                     <a href="#">
-
-                                        <?php $this->Html->image('avatar.png', array('class' => "msg-photo", 'alt' => "Alex's Avatar")); ?>
+                                        <?php echo $this->Html->image('avatars/avatar.png', array('class' => 'msg-photo', 'alt' => "Alex's Avatar")); ?>
                                         <span class="msg-body">
                                             <span class="msg-title">
                                                 <span class="blue">Alex:</span>
@@ -198,7 +198,8 @@
 
                                 <li>
                                     <a href="#">
-                                        <img src="assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+                                        <?php echo $this->Html->image('avatars/avatar3.png', array('class' => 'msg-photo', 'alt' => "Susan's Avatar")); ?>
+
                                         <span class="msg-body">
                                             <span class="msg-title">
                                                 <span class="blue">Susan:</span>
@@ -213,56 +214,6 @@
                                     </a>
                                 </li>
 
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
-                                        <span class="msg-body">
-                                            <span class="msg-title">
-                                                <span class="blue">Bob:</span>
-                                                Nullam quis risus eget urna mollis ornare ...
-                                            </span>
-
-                                            <span class="msg-time">
-                                                <i class="ace-icon fa fa-clock-o"></i>
-                                                <span>3:15 pm</span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
-                                        <span class="msg-body">
-                                            <span class="msg-title">
-                                                <span class="blue">Kate:</span>
-                                                Ciao sociis natoque eget urna mollis ornare ...
-                                            </span>
-
-                                            <span class="msg-time">
-                                                <i class="ace-icon fa fa-clock-o"></i>
-                                                <span>1:33 pm</span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
-                                        <span class="msg-body">
-                                            <span class="msg-title">
-                                                <span class="blue">Fred:</span>
-                                                Vestibulum id penatibus et auctor  ...
-                                            </span>
-
-                                            <span class="msg-time">
-                                                <i class="ace-icon fa fa-clock-o"></i>
-                                                <span>10:09 am</span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </li>
                             </ul>
                         </li>
 
@@ -277,37 +228,32 @@
 
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <?php echo $this->Html->image('user.jpg', array('class' => "nav-user-photo", 'alt' => "Alex's Avatar")); ?>
+                        <?php echo $this->Html->image('avatars/user.jpg', array('class' => 'nav-user-photo', 'alt' => "Jason's Avatar")); ?>
 
                         <span class="user-info">
-                            <small>Welcome,</small>
-                            Jason
+                            <small>Xin chào,</small>
+                            User
                         </span>
 
                         <i class="ace-icon fa fa-caret-down"></i>
                     </a>
 
                     <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-                        <li>
-                            <a href="#">
-                                <i class="ace-icon fa fa-cog"></i>
-                                Settings
-                            </a>
-                        </li>
+
 
                         <li>
-                            <a href="profile.html">
+                            <a href="/myprofile">
                                 <i class="ace-icon fa fa-user"></i>
-                                Profile
+                                Hồ sơ
                             </a>
                         </li>
 
                         <li class="divider"></li>
 
                         <li>
-                            <a href="#">
+                            <a href="/logout">
                                 <i class="ace-icon fa fa-power-off"></i>
-                                Logout
+                                Đăng xuất
                             </a>
                         </li>
                     </ul>

@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/WampDeveloper/Websites/myapp.local/webroot/app/View/Themed/Ace/Layouts/default.ctp</file>
+            <file>file:/D:/WampDeveloper/Websites/myapp.local/webroot/app/View/Themed/Ace/Elements/footer.ctp</file>
+            <file>file:/D:/WampDeveloper/Websites/myapp.local/webroot/app/View/Themed/Ace/Elements/header.ctp</file>
+            <file>file:/D:/WampDeveloper/Websites/myapp.local/webroot/app/View/Themed/Ace/Elements/left_menu.ctp</file>
+        </group>
     </open-files>
 </project-private>
